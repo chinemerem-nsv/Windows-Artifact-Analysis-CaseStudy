@@ -28,7 +28,7 @@ This repository documents a full forensic investigation performed on the forensi
 - [Document Metadata Analysis](#document-metadata-analysis)
 - [Skills Demonstrated](#skills-demonstrated)
 - [Lessons Learned](#lessons-learned)
-- [Screenshots](#screenshots)
+- [Screenshots](#screenshots-folder)
 - [Disclaimer](#disclaimer)
 
 ---
@@ -157,21 +157,16 @@ handguns
 
 ---
 
-## Screenshot Placeholder
-![Browser Search History](screenshots/search.png)
-![Browser Search History](screenshots/search3.png)
-![Browser Search History](screenshots/search1.png)
-![Browser Search History](screenshots/search2.png)
-
+### Screenshot
 
 
 <details>
-##  <summary>Click to view all Browser Search History screenshots</summary>
+  <summary>Click to view all Browser Search History screenshots</summary>
   
-  ![History 1](screenshots/search.png)
-  ![History 2](screenshots/search3.png)
-  ![History 3](screenshots/search1.png)
-  ![History 4](screenshots/search2.png)
+  ![Search History 1](screenshots/search.png)
+  ![Search History 2](screenshots/search3.png)
+  ![Search History 3](screenshots/search1.png)
+  ![Search History 4](screenshots/search2.png)
 </details>
 
 ---
@@ -182,12 +177,12 @@ handguns
 
 Recovered browser history identified access to:
 
-```text
+```
 How to Ditch Big Brother and Disappear Forever
 ```
 
 ### URL
-```text
+```
 http://lifehacker.com/5676149/how-to-ditch-big-brother-and-disappear-forever
 ```
 
@@ -197,12 +192,12 @@ http://lifehacker.com/5676149/how-to-ditch-big-brother-and-disappear-forever
 
 Recovered artifacts also revealed access to:
 
-```text
+```
 How to Hide Money From The Government
 ```
 
 ### URL
-```text
+```
 http://libertarianmoney.wordpress.com/2013/05/29/how-to-hide-money-from-the-government/
 ```
 
@@ -210,16 +205,20 @@ http://libertarianmoney.wordpress.com/2013/05/29/how-to-hide-money-from-the-gove
 
 ## Department of Justice Webpage
 
-```text
+```
 http://www.justice.gov/criminal/fraud/websites/idtheft.html
 ```
 
 ---
 
-## Screenshot Placeholder
-```text
-/screenshots/web-history-analysis.png
-```
+### Screenshot
+<details>
+  <summary>Click to view all Browser Search History screenshots</summary>
+  
+  ![Web History 1](screenshots/disappear.png)
+  ![Web History 2](screenshots/money.png)
+  ![Web History 3](screenshots/justice.png)
+</details>
 
 ---
 
@@ -229,13 +228,13 @@ Shellbag analysis revealed interaction with encrypted storage locations and susp
 
 ## Recovered Artifact
 
-```text
+```
 My Computer\M:\Jimmy Wilson True Crypt
 ```
 
 ## Registry Path
 
-```text
+```
 Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\1\0\
 ```
 
@@ -243,10 +242,8 @@ These artifacts provided evidence of historical folder access even after deletio
 
 ---
 
-## Screenshot Placeholder
-```text
-/screenshots/shellbag-analysis.png
-```
+### Screenshot
+![Shellbag Analysis](screenshots/shellbag.png)
 
 ---
 
@@ -256,22 +253,20 @@ These artifacts provided evidence of historical folder access even after deletio
 
 Recovered file:
 
-```text
+```
 New Price List Encoded.TXT
 ```
 
 ### File Path
 
-```text
+```
 /img_2020JimmyWilson.E01/vol_vol6/$RECYCLE.BIN/S-1-5-21-1171287513-3642516788-2358256967-1004/$R3TS6GA/New Price List Encoded.TXT
 ```
 
 ---
 
-## Screenshot Placeholder
-```text
-/screenshots/recovered-files.png
-```
+### Screenshot Placeholder
+![Recovered File](screenshots/recovered.png)
 
 ---
 
@@ -281,13 +276,13 @@ Recovered documents revealed research into credential-printing hardware.
 
 ## Recovered PDF
 
-```text
+```
 zxp8-datasheet-en-us.pdf
 ```
 
 ## Hardware Identified
 
-```text
+```
 Zebra ZXP Series 8
 ```
 
@@ -298,10 +293,8 @@ The ZXP Series 8 is a professional-grade card printer commonly used for:
 
 ---
 
-## Screenshot Placeholder
-```text
-/screenshots/hardware-research.png
-```
+### Screenshot
+![Hardware Research](screenshots/hardware.png)
 
 ---
 
@@ -313,22 +306,20 @@ Browser cache artifacts identified images associated with:
 
 ## Cached Image
 
-```text
+```
 Zebra[1].gif
 ```
 
 ## File Location
 
-```text
+```
 /img_2020JimmyWilson.E01/vol_vol6/USERS/Jimmy Wilson/AppData/Local/Microsoft/Windows/Temporary Internet Files/Low/Content.IE5/CBU4KX3T/Zebra[1].gif
 ```
 
 ---
 
-## Screenshot Placeholder
-```text
-/screenshots/browser-cache-evidence.png
-```
+### Screenshot
+![Browser Cache Evidence](screenshots/cache.png)
 
 ---
 
@@ -338,19 +329,19 @@ Metadata analysis was performed on recovered Microsoft Office documents.
 
 ## Examined Document
 
-```text
+```
 letterlegal5.doc
 ```
 
 ## Metadata Recovered
 
-```text
+```
 meta:last-author: Randy Prakken
 ```
 
 This metadata identified:
 
-```text
+```
 Randy Prakken
 ```
 
@@ -358,10 +349,8 @@ as the last recorded author of the document.
 
 ---
 
-## Screenshot Placeholder
-```text
-/screenshots/document-metadata.png
-```
+### Screenshot
+![Document Metadata](screenshots/metadata.png)
 
 ---
 
@@ -396,45 +385,19 @@ The assignment reinforced the importance of:
 
 ---
 
-# Screenshots
+# Screenshots Folder
 
 | Screenshot | Description |
 |------------|-------------|
-| hash-verification.png | FTK Imager hash verification |
-| computer-name-registry.png | SYSTEM hive computer name |
-| browser-search-artifacts.png | Browser search history evidence |
-| web-history-analysis.png | Recovered suspicious webpage visits |
-| shellbag-analysis.png | Shellbag registry artifact |
-| recovered-files.png | Deleted/recovered files evidence |
-| hardware-research.png | Zebra printer datasheet evidence |
-| browser-cache-evidence.png | Cached Zebra image artifact |
-| document-metadata.png | Metadata showing last author |
-
----
-
-# Repository Structure
-
-```text
-2020JimmyWilson-Forensics/
-│
-├── README.md
-├── report/
-│   └── JimmyWilson_Forensics_Report.pdf
-│
-├── screenshots/
-│   ├── hash-verification.png
-│   ├── computer-name-registry.png
-│   ├── browser-search-artifacts.png
-│   ├── web-history-analysis.png
-│   ├── shellbag-analysis.png
-│   ├── recovered-files.png
-│   ├── hardware-research.png
-│   ├── browser-cache-evidence.png
-│   └── document-metadata.png
-│
-└── findings/
-    └── extracted-artifacts.txt
-```
+| hash.png | FTK Imager hash verification |
+| computer-name.png | SYSTEM hive computer name |
+| search.png  search1.png  search2.png  search3.png | Browser search history evidence |
+| disappear.png money.png justice.png  | Recovered suspicious webpage visits |
+| shellbag.png | Shellbag registry artifact |
+| recovered.png | Deleted/recovered files evidence |
+| hardware.png | Zebra printer datasheet evidence |
+| cache.png | Cached Zebra image artifact |
+| metadata.png | Metadata showing last author |
 
 ---
 

@@ -119,7 +119,7 @@ ControlSet001\Control\ComputerName\ComputerName
 
 ## Screenshot Placeholder
 ```text
-/screenshots/computer-name-registry.png
+/screenshots/computer-name.png
 ```
 
 ---

@@ -102,9 +102,9 @@ Hash verification confirmed the integrity of the forensic image prior to analysi
 # System Identification
 
 Analysis of the Windows SYSTEM Registry hive identified the workstation name as:
-
+```
 IACIS-HDD-2014
-
+```
 ---
 
 ## Registry Key
@@ -158,7 +158,6 @@ handguns
 ---
 
 ### Screenshot
-
 
 <details>
   <summary>Click to view all Browser Search History screenshots</summary>
@@ -350,7 +349,7 @@ as the last recorded author of the document.
 ---
 
 ### Screenshot
-![Document Metadata](screenshots/metadata.png)
+![Document Metadata](screenshots/meta_data.png)
 
 ---
 

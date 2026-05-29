@@ -96,7 +96,6 @@ Hash verification confirmed the integrity of the forensic image prior to analysi
 ---
 
 ## Screenshot Placeholder
-```text
 ![Hash-Verification](screenshots/hash.png)
 ```
 

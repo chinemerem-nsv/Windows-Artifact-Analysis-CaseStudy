@@ -166,7 +166,7 @@ handguns
 
 
 <details>
-  <summary>##Click to view all Browser Search History screenshots</summary>
+##  <summary>Click to view all Browser Search History screenshots</summary>
   
   ![History 1](screenshots/search.png)
   ![History 2](screenshots/search3.png)

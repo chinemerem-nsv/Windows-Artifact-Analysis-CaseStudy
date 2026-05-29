@@ -2,7 +2,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=flat-square)
 ![Forensics](https://img.shields.io/badge/Discipline-Digital%20Forensics-darkgreen?style=flat-square)
-![Tools](https://img.shields.io/badge/Tools-FTK%20Imager%20%7C%20Autopsy-orange?style=flat-square)
+![Tools](https://img.shields.io/badge/Tools-FTK%20Imager%20%7C%20Autopsy%20%7C%20Registry%20Explorer-orange?style=flat-square)
 ![Registry](https://img.shields.io/badge/Analysis-Registry%20%26%20Shellbags-red?style=flat-square)
 ![Browser](https://img.shields.io/badge/Artifacts-Browser%20History-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen?style=flat-square)
@@ -97,7 +97,7 @@ Hash verification confirmed the integrity of the forensic image prior to analysi
 
 ## Screenshot Placeholder
 ```text
-/screenshots/hash-verification.png
+![Hash-Verification](screenshots/hash.png)
 ```
 
 ---

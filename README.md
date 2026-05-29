@@ -115,9 +115,7 @@ ControlSet001\Control\ComputerName\ComputerName
 ---
 
 ## Screenshot Placeholder
-```
-/screenshots/computer-name.png
-```
+![Computer-Name](screenshots/computer-name.png)
 
 ---
 
@@ -160,9 +158,10 @@ handguns
 ---
 
 ## Screenshot Placeholder
-```text
-/screenshots/browser-search-artifacts.png
-```
+![Browser Search History](screenshots/search.png)
+![Browser Search History](screenshots/search1.png)
+![Browser Search History](screenshots/search2.png)
+![Browser Search History](screenshots/search3.png)
 
 ---
 

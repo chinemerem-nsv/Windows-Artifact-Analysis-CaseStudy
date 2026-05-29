@@ -390,8 +390,8 @@ The assignment reinforced the importance of:
 |------------|-------------|
 | hash.png | FTK Imager hash verification |
 | computer-name.png | SYSTEM hive computer name |
-| search.png  search1.png  search2.png  search3.png | Browser search history evidence |
-| disappear.png money.png justice.png  | Recovered suspicious webpage visits |
+| search.png | search1.png | search2.png | search3.png | Browser search history evidence |
+| disappear.png | money.png | justice.png  | Recovered suspicious webpage visits |
 | shellbag.png | Shellbag registry artifact |
 | recovered.png | Deleted/recovered files evidence |
 | hardware.png | Zebra printer datasheet evidence |

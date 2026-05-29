@@ -95,19 +95,20 @@ Hash verification confirmed the integrity of the forensic image prior to analysi
 
 ---
 
-## Screenshot Placeholder
+### Screenshot Placeholder
 ![Hash-Verification](screenshots/hash.png)
-```
 
+```
+```
 ---
 
 # System Identification
 
 Analysis of the Windows SYSTEM Registry hive identified the workstation name as:
 
-```text
 IACIS-HDD-2014
-```
+
+---
 
 ## Registry Key
 ```text

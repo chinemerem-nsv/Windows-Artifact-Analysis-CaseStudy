@@ -82,24 +82,21 @@ The primary objectives of this investigation were to:
 ## Verified Hash Values
 
 ### MD5
-```text
+```
 b267fb0cd94645425eee00258d3a9b58
 ```
 
 ### SHA1
-```text
+```
 a1102c70a50768b588225fdcad6efa5d5d57341b
 ```
 
 Hash verification confirmed the integrity of the forensic image prior to analysis.
 
 ---
-
-### Screenshot Placeholder
+### Screenshot
 ![Hash-Verification](screenshots/hash.png)
 
-```
-```
 ---
 
 # System Identification
@@ -111,14 +108,14 @@ IACIS-HDD-2014
 ---
 
 ## Registry Key
-```text
+```
 ControlSet001\Control\ComputerName\ComputerName
 ```
 
 ---
 
 ## Screenshot Placeholder
-```text
+```
 /screenshots/computer-name.png
 ```
 

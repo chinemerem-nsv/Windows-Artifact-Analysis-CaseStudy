@@ -159,9 +159,9 @@ handguns
 
 ## Screenshot Placeholder
 ![Browser Search History](screenshots/search.png)
+![Browser Search History](screenshots/search3.png)
 ![Browser Search History](screenshots/search1.png)
 ![Browser Search History](screenshots/search2.png)
-![Browser Search History](screenshots/search3.png)
 
 ---
 

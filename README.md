@@ -114,8 +114,8 @@ ControlSet001\Control\ComputerName\ComputerName
 
 ---
 
-## Screenshot Placeholder
-![Computer-Name](screenshots/computer-name.png)
+### Screenshot
+![Computer-Name](screenshots/computer_name.png)
 
 ---
 
@@ -162,6 +162,27 @@ handguns
 ![Browser Search History](screenshots/search3.png)
 ![Browser Search History](screenshots/search1.png)
 ![Browser Search History](screenshots/search2.png)
+
+html
+<table>
+  <tr>
+    <td><img src="screenshots/search.png" width="200"></td>
+    <td><img src="screenshots/search1.png" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/search2.png" width="200"></td>
+    <td><img src="screenshots/search3.png" width="200"></td>
+  </tr>
+</table>
+
+<details>
+  <summary>Click to view all Browser Search History screenshots</summary>
+  
+  ![History 1](screenshots/search.png)
+  ![History 2](screenshots/search1.png)
+  ![History 3](screenshots/search2.png)
+  ![History 4](screenshots/search3.png)
+</details>
 
 ---
 

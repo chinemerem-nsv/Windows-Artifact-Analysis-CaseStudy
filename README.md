@@ -377,7 +377,7 @@ This forensic investigation provided hands-on experience with:
 - behavioral reconstruction,
 - and structured forensic reporting methodologies.
 
-The project reinforced the importance of:
+This project reinforced the importance of:
 - maintaining evidence integrity,
 - documenting findings thoroughly,
 - and analyzing multiple artifact sources to reconstruct user activity.
